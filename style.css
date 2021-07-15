@@ -16,6 +16,10 @@ margin: auto;
 /*------ header area start------ */
 #header{
   background: #2d25a0;
+  position: sticky;
+  top:0;
+  z-index: 2;
+  box-shadow: 0px 1px #fff;
 }
 
 .header-area{
