@@ -214,6 +214,17 @@ margin: auto;
                  .imgbox img {
                      width: 100%;
                  }
+
+                 .footer{
+                        padding-bottom: 4em;
+                 }
+                 .box .textbx a{
+                     margin-top: 2em;
+              }
+              .textbx h3 {
+                     font-size: 58px;
+              
+                 }
        }
        /*------- tab-end-------- */
 
@@ -241,15 +252,19 @@ margin: auto;
                      display: flex;
                      align-items: center;
                      justify-content: center;
-                     flex-direction: column;
+                     
               
               }
 
-              .header-area{
+              .header-area {
+                     padding-right: 1em;
+                     justify-content: flex-end;
                      display: flex;
-                     flex-direction: column;
-              }
-
+                     /* flex-direction: column; */
+                 }
+                 .box .textbx a{
+                        margin-top: 2em;
+                 }
               .content .textbx {
                      padding: 0px 11px;
                  }
@@ -279,5 +294,31 @@ margin: auto;
                      transform-origin: left;
                      width: 319px;
                  }
+
+                .footer{
+                     padding-bottom: 4em;
+                }
+
+                .menu ul{
+                       display: none;
+                       visibility: hidden;
+                }
+
+                .toggle{
+                       position: absolute;
+                       top: 35px;
+                       left: 20px;
+                       background: url('image/menu.png');
+                       background-position: center;
+                       background-repeat:no-repeat;
+                       width: 30px;
+                       height: 30px;
+                       padding-left: 2em;
+
+                }
+
+                .login-area .login{
+                       margin-top: -3em;
+                }
        }
        /*----- mobile-end------ */
